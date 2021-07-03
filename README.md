@@ -14,10 +14,10 @@ Using the imbalanced learn library to resample data, I was able to conclude that
 
 On the other hand, I have also compared 2 different ensemble classifiers to predict loan risk and evaluate each model.  On this exercise, I have found that:
 
-- The model that had the better balanced accuracy score is the Easy Ensemble Classifier with 0.71618, compared to 0.71558 of the Balanced Random Forest Classifier.
+- The model that had the better balanced accuracy score is the Balanced Random Forest Classifier with 0.72223 , compared to Easy Ensemble Classifier with 0.72175.
 
 - The model that had the better recall score is the Balanced Random Forest Classifier with 0.84, compared to 0.77 of the Easy Ensemble Classifier.
 
-- The two models had the same geometric mean score of 0.71.
+- The model that had the better geometric mean score is the Easy Ensemble Classifier with 0.72, compared to 0.71 of the Balances Random Forest Classifier.
 
-- The top three features are the Total Received Principal, Total Received Interest and Last Payment Amount.
+- The top three features are the Total Received Principal, Last Payment Amount and Total Received Interest.
